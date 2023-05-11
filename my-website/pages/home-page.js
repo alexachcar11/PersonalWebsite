@@ -2,6 +2,7 @@ import Link from 'next/link';
 import styles from '../styles/home-page.module.css';
 import Head from 'next/head';
 import { useEffect } from 'react';
+import { Text } from '@nextui-org/react';
 
 function HomePage() { 
 
@@ -13,7 +14,16 @@ function HomePage() {
                 <div className={styles.imageWrapper}>
                     <img className={styles.image} src="headshot.jpg" alt="Headshot" />
                 </div>
-                <h1>Alexander Achcar</h1>
+                <Text 
+                    h1 
+                    size={60} 
+                    css={{ 
+                        textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                    }}
+                    weight="bold"
+                >
+                    Alexander Achcar
+                </Text>
             </div>
 
             <div className={styles.briefDesc}> 
