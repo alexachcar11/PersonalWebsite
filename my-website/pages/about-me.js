@@ -33,13 +33,37 @@ function AboutMe() {
                 </p> 
             </div>
 
-            <div className={styles.picHighlights}> 
+            <div>  {/* pictures and descriptions */}
                 
-                <div className={pictures}> 
+                <div className={styles.pictures}> 
+
+                    <div className={styles.pic1}>
+                            
+                    </div>
+
+                    <div className={styles.pic2}> 
+                        
+                    </div>
+
+                    <div className={styles.pic3}> 
+                        
+                    </div>
                     
                 </div>
 
-                <div className={descriptions}> 
+                <div className={styles.descriptions}> 
+
+                    <div className={styles.desc1}>
+                        
+                    </div>
+
+                    <div className={styles.desc2}> 
+                        
+                    </div>
+
+                    <div className={styles.desc3}> 
+                        
+                    </div>
 
                 </div>
 
