@@ -65,6 +65,7 @@
   padding: 12px 24px;
   background-color: #C44536;
   color: #EDDDD4;
+  
   transition: box-shadow 150ms ease , color 150ms ease, background 150ms ease, transform 150ms ease;
   box-shadow: 0 4px 0;
   border-radius: 10px;
