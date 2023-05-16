@@ -33,7 +33,7 @@ function HomePage() {
 
             <div className = {styles.botButtons}> 
                 <button onClick={ ()=>window.location.href='/about-me'}> About Me </button>
-                <button> My Experiences </button>
+                <button onClick={ ()=>window.location.href='/experiences'}> My Experiences </button>
                 <button> My Resume </button>
                 <button> Contact Me </button>
             </div> 
