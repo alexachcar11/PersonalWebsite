@@ -8,6 +8,7 @@
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
+    overflow: hidden;
 }
     
 .title {
@@ -48,7 +49,6 @@
 
 .entriesContainer {
     flex: 1;
-    /* height: 100%; Set the height to match the parent container */
     overflow: hidden;
     display: flex;
   }
@@ -56,14 +56,15 @@
 .entries {
     display: flex;
     width: 100%;
-    height: 100%; /* Set the height to match the parent container */
+    height: 100%; 
     overflow-x: scroll;
-    /* scroll-snap-type: x mandatory; */
+    scroll-snap-type: x mandatory;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .panel {
-    flex: 0 0 100vw; /* Set each panel to occupy the full viewport width */
-    height: 100vh;
+    flex: 0 0 100vw; 
+    height: 100%;
     scroll-snap-align: start;
 }

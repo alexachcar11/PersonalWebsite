@@ -18,7 +18,7 @@ function HomePage() {
         const sections = gsap.utils.toArray(".panel");
       
         gsap.to(entriesRef.current.parentElement, {
-            x: () => -(entriesRef.current.parentElement.offsetWidth - window.innerWidth),
+            scrollLeft: entriesRef.current.parentElement.scrollWidth,
             ease: "none",
             scrollTrigger: {
               trigger: entriesRef.current.parentElement,
