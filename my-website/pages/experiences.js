@@ -55,7 +55,7 @@ function HomePage() {
                     My Experiences
                 </Text>
             </div>
-            <div className={styles.entriesContainer}> 
+            <div> 
                 <div ref={entriesRef} className={styles.entries}>
                     <div className={styles.panel}>
                         <img className={styles.citipic} src="citilogo.png" alt="citi logo" />

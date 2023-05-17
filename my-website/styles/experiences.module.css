@@ -23,6 +23,7 @@
     flex-direction: column; 
     gap: 0px;
     margin-top: 40px;
+    overflow: hidden;
 }
   
 .homeButton { 
@@ -47,12 +48,6 @@
     border-color: #772E25;
 }
 
-.entriesContainer {
-    flex: 1;
-    overflow: hidden;
-    display: flex;
-  }
-
 .entries {
     display: flex;
     width: 100%;
@@ -68,6 +63,7 @@
     height: 100vh;
     flex-shrink: 0;
     scroll-snap-align: start;
+    overflow: hidden;
 }
 
 .citipic { 
