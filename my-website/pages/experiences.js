@@ -4,6 +4,8 @@ import Head from 'next/head';
 import { useEffect, useRef } from 'react';
 import { Text } from '@nextui-org/react';
 import HomeIcon from '@mui/icons-material/Home';
+import EastIcon from '@mui/icons-material/East';
+import WestIcon from '@mui/icons-material/West';
 
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -76,6 +78,9 @@ function HomePage() {
                                 </li>
                             </ul>
                         </div>
+                        <div className={styles.botDiv}> 
+                            <p className={styles.scroll}> Scroll Right &nbsp; &nbsp; <EastIcon /></p>
+                        </div>
                     </div>
 
                     <div className={styles.panel}>
@@ -97,6 +102,10 @@ function HomePage() {
                                 </li>
                             </ul>
                         </div>
+                        <div className={styles.botDiv}> 
+                            <p className={styles.scroll}> Scroll Left &nbsp; &nbsp; <WestIcon /></p>
+                            <p className={styles.scroll}> Scroll Right &nbsp; &nbsp; <EastIcon /></p>
+                        </div>
                     </div>
 
                     <div className={styles.panel}> 
@@ -116,6 +125,10 @@ function HomePage() {
                                 </li>
                             </ul>
                         </div>
+                        <div className={styles.botDiv}> 
+                            <p className={styles.scroll}> Scroll Left &nbsp; &nbsp; <WestIcon /></p>
+                            <p className={styles.scroll}> Scroll Right &nbsp; &nbsp; <EastIcon /></p>
+                        </div>
                     </div>
 
                     <div className={styles.panel}> 
@@ -134,6 +147,9 @@ function HomePage() {
                                     Operated in Python to build code and edited outdated code written in Java. 
                                 </li>
                             </ul>
+                        </div>
+                        <div className={styles.botDiv}> 
+                            <p className={styles.scroll}> Scroll Left &nbsp; &nbsp; <WestIcon /></p>
                         </div>
                     </div>
                 </div>
