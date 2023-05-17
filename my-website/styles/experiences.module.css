@@ -64,10 +64,47 @@
 }
 
 .panel {
-    /* flex: 0 0 100vw;  */
     width: 100vw;
     height: 100vh;
     flex-shrink: 0;
     scroll-snap-align: start;
-    overflow-y: hidden;
+}
+
+.citipic { 
+    height: 100px;
+    width: auto;
+}
+
+.fcapic { 
+    height: 100px;
+    width: auto;
+}
+
+.actelpic { 
+    height: 80px;
+    width: auto;
+}
+
+.ni2pic { 
+    height: 90px;
+    width: auto;
+}
+
+.list {
+    list-style: none;
+    max-width: 600px;
+}
+  
+.points:before {
+    content: "•";
+    display: inline-block;
+    width: 1em;
+}
+
+.content { 
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
