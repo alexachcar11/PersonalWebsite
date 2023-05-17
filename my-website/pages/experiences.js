@@ -59,7 +59,6 @@ function HomePage() {
                 <div ref={entriesRef} className={styles.entries}>
                     <div className={styles.panel}>
                         <img className={styles.citipic} src="citilogo.png" alt="citi logo" />
-                        <h1> Citi </h1>
                         <p> <i> Technology Summer Analyst (May to August 2022) </i></p>
                         <div className={styles.content}> 
                             <ul className={styles.list}>
@@ -80,8 +79,7 @@ function HomePage() {
                     </div>
 
                     <div className={styles.panel}>
-                        <img className={styles.fcapic} src="fcalogo.png" alt="fca logo" />
-                        <h1> First Code Academy </h1>
+                        <img className={styles.fcapic} src="fcalogo-modified.png" alt="fca logo" />
                         <p> <i> Coding/STEM Instructor (June to August 2021) </i></p>
                         <div className={styles.content}> 
                             <ul className={styles.list}>
@@ -103,7 +101,6 @@ function HomePage() {
 
                     <div className={styles.panel}> 
                         <img className={styles.actelpic} src="actellogo.png" alt="actel logo" />
-                        <h1> Actel Consulting </h1>
                         <p> <i> Research Intern (May to August 2020) </i></p>
                         <div className={styles.content}> 
                             <ul className={styles.list}>
@@ -122,8 +119,7 @@ function HomePage() {
                     </div>
 
                     <div className={styles.panel}> 
-                        <img className={styles.ni2pic} src="ni2logo.png" alt="ni2 logo" />
-                        <h1> Ni2 Software </h1>
+                        <img className={styles.ni2pic} src="ni2logo-modified.png" alt="ni2 logo" />
                         <p> <i> Software Developer Intern (June to August 2017 & 2019) </i></p>
                         <div className={styles.content}> 
                             <ul className={styles.list}>

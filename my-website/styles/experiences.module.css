@@ -72,17 +72,22 @@
 }
 
 .fcapic { 
-    height: 100px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    height: 200px;
     width: auto;
 }
 
 .actelpic { 
     height: 80px;
     width: auto;
+    margin-bottom: 20px;
 }
 
 .ni2pic { 
-    height: 90px;
+    margin-top: -20px;
+    margin-bottom: -30px;
+    height: 150px;
     width: auto;
 }
 
