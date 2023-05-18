@@ -42,7 +42,7 @@ function HomePage() {
                 <button onClick={ ()=>window.location.href='/about-me'}> About Me </button>
                 <button onClick={ ()=>window.location.href='/experiences'}> My Experiences </button>
                 <button onClick={handleDownload}> My Resume </button>
-                <button> Contact Me </button>
+                <button onClick={ ()=>window.location.href='/contact-me'}> Contact Me </button>
             </div> 
         </div> 
         
