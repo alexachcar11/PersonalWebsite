@@ -6,6 +6,13 @@ import { Text } from '@nextui-org/react';
 
 function HomePage() { 
 
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/Alexander-Achcar-Resume.pdf';
+        link.download = 'AlexanderAchcarResume.pdf';
+        link.click();
+      };
+
     return ( 
         
         <div className={styles.container}>
@@ -34,7 +41,7 @@ function HomePage() {
             <div className = {styles.botButtons}> 
                 <button onClick={ ()=>window.location.href='/about-me'}> About Me </button>
                 <button onClick={ ()=>window.location.href='/experiences'}> My Experiences </button>
-                <button> My Resume </button>
+                <button onClick={handleDownload}> My Resume </button>
                 <button> Contact Me </button>
             </div> 
         </div> 
