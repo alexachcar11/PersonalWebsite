@@ -1,6 +1,6 @@
 
 .container {
-  min-height: 100vh;
+  min-height: 200vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -55,6 +55,7 @@
   display: flex;
   justify-content: center; 
   margin-top: 35px; 
+  min-height: 110px;
 }
 
 .botButtons button {
@@ -68,4 +69,41 @@
   box-shadow: 0 4px 0;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.skillsTab { 
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.skillsTitle { 
+  position: absolute;
+}
+
+.skillsList { 
+  margin-left: 300px;
+}
+
+.techstackTab { 
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.techstackTitle { 
+  position: absolute;
+
+}
+
+.techstackList { 
+  margin-left: 300px;
+}
+
+.items { 
+  margin-bottom: 20px;
 }
