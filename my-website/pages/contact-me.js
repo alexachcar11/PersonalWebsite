@@ -38,7 +38,7 @@ function Contactme() {
                     h1 
                     size={60} 
                     css={{ 
-                        textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                        textGradient: "45deg, #111111 -20%, #666666 50%",
                     }}
                     weight="bold"
                 >
@@ -59,7 +59,7 @@ function Contactme() {
                                     h1 
                                     size={30} 
                                     css={{ 
-                                        textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                                        textGradient: "45deg, #111111 -20%, #666666 50%",
                                     }}
                                     weight="bold"
                                 >
@@ -82,7 +82,7 @@ function Contactme() {
                                     h1 
                                     size={30} 
                                     css={{ 
-                                        textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                                        textGradient: "45deg, #111111 -20%, #666666 50%",
                                     }}
                                     weight="bold"
                                 >
@@ -105,7 +105,7 @@ function Contactme() {
                                     h1 
                                     size={30} 
                                     css={{ 
-                                        textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                                        textGradient: "45deg, #111111 -20%, #666666 50%",
                                     }}
                                     weight="bold"
                                 >

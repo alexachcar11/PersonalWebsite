@@ -19,7 +19,7 @@ function AboutMe() {
                     h1 
                     size={60} 
                     css={{ 
-                        textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                        textGradient: "45deg, #111111 -20%, #666666 50%",
                     }}
                     weight="bold"
                 >
@@ -47,7 +47,7 @@ function AboutMe() {
                                 h1 
                                 size={25} 
                                 css={{ 
-                                    textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                                    textGradient: "45deg, #111111 -20%, #666666 50%",
                                 }}
                                 weight="bold"
                             >
@@ -58,7 +58,7 @@ function AboutMe() {
                         <div className={styles.desc1}>
                             <p> 
                                 I grew up and lived in Hong Kong for 17 years. My time in Asia has given me a great 
-                                appreciation for different Asian cultures that has strongly influenced the person I am today. 
+                                appreciation for different Asian cultures that have strongly influenced the person I am today. 
                             </p>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function AboutMe() {
                                 h1 
                                 size={25} 
                                 css={{ 
-                                    textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                                    textGradient: "45deg, #111111 -20%, #666666 50%",
                                 }}
                                 weight="bold"
                             >
@@ -91,7 +91,7 @@ function AboutMe() {
                                 h1 
                                 size={25} 
                                 css={{ 
-                                    textGradient: "45deg, #772E25 -20%, #C44536 50%",
+                                    textGradient: "45deg, #111111 -20%, #666666 50%",
                                 }}
                                 weight="bold"
                             >

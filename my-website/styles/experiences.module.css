@@ -3,7 +3,7 @@
     padding: 0 0.5rem;
     display: flex;
     flex-direction: column;
-    background-color: #EDDDD4;
+    background-color: #EEEBE7;
     position: relative;
     margin-top: -10px;
     margin-left: -10px;
@@ -36,16 +36,16 @@
     width: 31px; 
     height: 31px;
     padding-top: 2px;
-    background-color: #772E25; 
+    background-color: #2a333c; 
     border: none; 
     cursor: pointer;
     overflow: hidden;
 }
 
 .button1 { 
-    background-color: #772E25;
+    background-color: #2a333c;
     color: #E2DBD0;
-    border-color: #772E25;
+    border-color: #2a333c;
 }
 
 .entries {
@@ -121,7 +121,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-color: #772E25;
+    border-color: #2a333c;
     border-style: solid;
     padding: 5px;
     width: 150px;
