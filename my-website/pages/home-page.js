@@ -113,10 +113,10 @@ function HomePage() {
                             <p> Skills: </p>
                         </div>
                         <div className = {styles.skillsList}>
-                            <p className = {styles.items}> skill1 </p>
-                            <p className = {styles.items}> skill2 </p>
-                            <p className = {styles.items}> skill3 </p>
-                            <p className = {styles.items}> skill4 </p>
+                            <p className = {styles.items}> Frontend Development </p>
+                            <p className = {styles.items}> Backend Development </p>
+                            <p className = {styles.items}> CI/CD </p>
+                            <p className = {styles.items}> Artificial Intelligence / Machine Learning </p>
                         </div>
                     </div>
 
@@ -125,10 +125,32 @@ function HomePage() {
                             <p> Tech Stack: </p>
                         </div>
                         <div className = {styles.techstackList}>
-                            <p className = {styles.items}> techstack1 </p>
-                            <p className = {styles.items}> techstack2 </p>
-                            <p className = {styles.items}> techstack3 </p>
-                            <p className = {styles.items}> techstack4 </p>
+
+                            <p className = {styles.items}> Java </p>
+                            <p className = {styles.items}> Python </p>
+                            <p className = {styles.items}> C </p>
+                            <p className = {styles.items}> Unix </p>
+                            <p className = {styles.items}> HTML </p>
+
+                            <p className = {styles.items}> CSS </p>
+                            <p className = {styles.items}> Javascript </p>
+                            <p className = {styles.items}> React </p>
+                            <p className = {styles.items}> Next.js </p>
+                            <p className = {styles.items}> AWS </p>
+
+                            <p className = {styles.items}> Docker </p>
+                            <p className = {styles.items}> Django </p>
+                            <p className = {styles.items}> Jenkins </p>
+                            <p className = {styles.items}> Pandas </p>
+                            <p className = {styles.items}> PyTorch </p>
+
+                            <p className = {styles.items}> Keras </p>
+                            <p className = {styles.items}> Figma </p>
+                            <p className = {styles.items}> Notion </p>
+                            <p className = {styles.items}> Jira </p>
+                            <p className = {styles.items}> SQL </p>
+
+
                         </div>
                     </div>
                 </div>

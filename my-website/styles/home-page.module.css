@@ -87,7 +87,7 @@
   display: flex;
   justify-content: left;
   margin-left: 20px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .skillsTitle { 
@@ -111,8 +111,10 @@
 
 }
 
-.techstackList { 
+.techstackList {
   margin-left: 210px;
+  column-count: 4; /* Adjust for number of cols */
+  column-gap: 140px;
 }
 
 .items { 
