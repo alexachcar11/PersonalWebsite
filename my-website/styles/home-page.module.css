@@ -117,6 +117,19 @@
   column-gap: 140px;
 }
 
-.items { 
+.skillsitems { 
   margin-bottom: 20px;
+}
+
+.techstackitems { 
+  margin-bottom: 20px;
+}
+
+.highlighted { 
+  background-color: red;
+  color: white;
+}
+
+.item { 
+
 }
