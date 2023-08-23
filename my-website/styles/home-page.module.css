@@ -1,14 +1,9 @@
 
 .container {
-  min-height: 200vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   background-color: #EEEBE7;
-  position: relative;
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
+  overflow: hidden;
 }
   
 .title {
@@ -19,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; /* Add this line to center the image and text vertically */
+  flex-direction: column; 
   gap: 0px;
   margin-top: 40px;
 }
@@ -71,37 +66,53 @@
   overflow: hidden;
 }
 
+.panelContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory; 
+  max-height: 100vh;
+
+}
+
+.panel {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+/* second panel components */
+
 .skillsTab { 
   display: flex;
   justify-content: left;
   margin-left: 20px;
-  position: absolute;
   margin-top: 100px;
 }
 
 .skillsTitle { 
-  position: absolute;
+
+
 }
 
 .skillsList { 
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 .techstackTab { 
   display: flex;
   justify-content: left;
   margin-left: 20px;
-  position: absolute;
-  margin-top: 300px;
+  margin-top: 50px;
 }
 
 .techstackTitle { 
-  position: absolute;
+
 
 }
 
 .techstackList { 
-  margin-left: 300px;
+  margin-left: 210px;
 }
 
 .items { 
