@@ -22,38 +22,39 @@ function HomePage() {
 
     const [highlightedTech, setHighlightedTech] = useState('');
 
-    useEffect(() => {
-        const skillsList = document.querySelectorAll('div.skillsitems');
-        const techstackList = document.querySelectorAll('.techstackList .items');
+    const skillsListRef = useRef(null);
 
-        console.log(skillsList);
-        console.log("Skills list len: ", skillsList.length);
+    useEffect(() => {
+        const skillsList = document.querySelectorAll(`.${styles.skillsitems}`);
+        const techstackList = [...document.querySelectorAll(`.${styles.techstackitems}`)];
+
+        const removeHighlightFromTechStack = () => {
+            techstackList.forEach(item => {
+                item.style.textDecoration = 'none';
+                item.style.fontStyle = 'normal';
+            });
+        };
 
         skillsList.forEach(skill => {
             skill.addEventListener('mouseover', () => {
                 const relatedTechs = skill.getAttribute('data-related').split(' ');
     
-                if (relatedTechs.includes('Java')) {
-                    techstackList.forEach(item => {
-                        if (item.getAttribute('data-tech') === 'Java') {
-                            item.classList.add('.highlighted');
-                        } else {
-                            item.classList.remove('.highlighted');
-                        }
-                    });
-                } else {
-                    const highlightedTech = relatedTechs.find(tech =>
-                        techstackList.some(item => item.getAttribute('data-tech') === tech)
-                    );
+                techstackList.forEach(item => {
+                    item.classList.remove('highlighted');
+                });
     
+                relatedTechs.forEach(tech => {
                     techstackList.forEach(item => {
-                        if (item.getAttribute('data-tech') === highlightedTech) {
-                            item.classList.add('highlighted');
-                        } else {
-                            item.classList.remove('highlighted');
+                        if (item.getAttribute('data-tech') === tech) {
+                            // item.style.backgroundColor = 'red'; // adjust the color to something else
+                            item.style.textDecoration = 'underline';
+                            item.style.fontStyle = 'italic';
                         }
                     });
-                }
+                });
+                skill.addEventListener('mouseleave', () => {
+                    removeHighlightFromTechStack();
+                });
             });
         });
     }, []);
@@ -149,17 +150,17 @@ function HomePage() {
                         <div className = {styles.skillsTitle}>
                             <p> Skills: </p>
                         </div>
-                        <div className={styles.skillsList}>
-                            <div className={styles.skillsitems} data-tech="Frontend Development" data-related="Java">
+                        <div className={styles.skillsList} ref={skillsListRef}>
+                            <div className={styles.skillsitems} data-tech="Frontend Development" data-related="HTML CSS Javascript React Next.js">
                                 Frontend Development
                             </div>
-                            <div className={styles.skillsitems} data-tech="Backend Development" data-related="Python">
+                            <div className={styles.skillsitems} data-tech="Backend Development" data-related="Java Python C SQL">
                                 Backend Development
                             </div>
-                            <div className={styles.skillsitems} data-tech="CI/CD">
+                            <div className={styles.skillsitems} data-tech="CI/CD" data-related="Docker Django Jenkins">
                                 CI/CD
                             </div>
-                            <div className={styles.skillsitems} data-tech="AI/ML">
+                            <div className={styles.skillsitems} data-tech="AI/ML" data-related="Python Pandas PyTorch Keras">
                                 Artificial Intelligence / Machine Learning
                             </div>
                         </div>
@@ -171,30 +172,30 @@ function HomePage() {
                         </div>
                         <div className = {styles.techstackList}>
 
-                            <p className = {styles.techstackitems} data-tech="Java"> Java </p>
-                            <p className = {styles.techstackitems} data-tech="Python"> Python </p>
-                            <p className = {styles.techstackitems} data-tech="C"> C </p>
-                            <p className = {styles.techstackitems} data-tech="Unix"> Unix </p>
-                            <p className = {styles.techstackitems} data-tech="HTML"> HTML </p>
+                            <div className = {styles.techstackitems} data-tech="Java"> Java </div>
+                            <div className = {styles.techstackitems} data-tech="Python"> Python </div>
+                            <div className = {styles.techstackitems} data-tech="C"> C </div>
+                            <div className = {styles.techstackitems} data-tech="Unix"> Unix </div>
+                            <div className = {styles.techstackitems} data-tech="HTML"> HTML </div>
 
 
-                            <p className = {styles.techstackitems} data-tech="CSS"> CSS </p>
-                            <p className = {styles.techstackitems} data-tech="Javascript"> Javascript </p>
-                            <p className = {styles.techstackitems} data-tech="React"> React </p>
-                            <p className = {styles.techstackitems} data-tech="Next.js"> Next.js </p>
-                            <p className = {styles.techstackitems} data-tech="AWS"> AWS </p>
+                            <div className = {styles.techstackitems} data-tech="CSS"> CSS </div>
+                            <div className = {styles.techstackitems} data-tech="Javascript"> Javascript </div>
+                            <div className = {styles.techstackitems} data-tech="React"> React </div>
+                            <div className = {styles.techstackitems} data-tech="Next.js"> Next.js </div>
+                            <div className = {styles.techstackitems} data-tech="AWS"> AWS </div>
 
-                            <p className = {styles.techstackitems} data-tech="Docker"> Docker </p>
-                            <p className = {styles.techstackitems} data-tech="Django"> Django </p>
-                            <p className = {styles.techstackitems} data-tech="Jenkins"> Jenkins </p>
-                            <p className = {styles.techstackitems} data-tech="Pandas"> Pandas </p>
-                            <p className = {styles.techstackitems} data-tech="PyTorch"> PyTorch </p>
+                            <div className = {styles.techstackitems} data-tech="Docker"> Docker </div>
+                            <div className = {styles.techstackitems} data-tech="Django"> Django </div>
+                            <div className = {styles.techstackitems} data-tech="Jenkins"> Jenkins </div>
+                            <div className = {styles.techstackitems} data-tech="Pandas"> Pandas </div>
+                            <div className = {styles.techstackitems} data-tech="PyTorch"> PyTorch </div>
 
-                            <p className = {styles.techstackitems} data-tech="Keras"> Keras </p>
-                            <p className = {styles.techstackitems} data-tech="Figma"> Figma </p>
-                            <p className = {styles.techstackitems} data-tech="Notion"> Notion </p>
-                            <p className = {styles.techstackitems} data-tech="Jira"> Jira </p>
-                            <p className = {styles.techstackitems} data-tech="SQL"> SQL </p>
+                            <div className = {styles.techstackitems} data-tech="Keras"> Keras </div>
+                            <div className = {styles.techstackitems} data-tech="Figma"> Figma </div>
+                            <div className = {styles.techstackitems} data-tech="Notion"> Notion </div>
+                            <div className = {styles.techstackitems} data-tech="Jira"> Jira </div>
+                            <div className = {styles.techstackitems} data-tech="SQL"> SQL </div>
 
 
                         </div>
