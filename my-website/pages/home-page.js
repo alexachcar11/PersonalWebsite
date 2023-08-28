@@ -3,7 +3,7 @@ import styles from '../styles/home-page.module.css';
 import Head from 'next/head';
 import { useEffect, useRef, useState } from 'react';
 import { Text } from '@nextui-org/react';
-
+import { MovingComponent } from 'react-moving-text'
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -46,7 +46,6 @@ function HomePage() {
                 relatedTechs.forEach(tech => {
                     techstackList.forEach(item => {
                         if (item.getAttribute('data-tech') === tech) {
-                            // item.style.backgroundColor = 'red'; // adjust the color to something else
                             item.style.textDecoration = 'underline';
                             item.style.fontStyle = 'italic';
                         }
@@ -143,6 +142,20 @@ function HomePage() {
                         <button onClick={handleDownload}> My Resume </button>
                         <button onClick={ ()=>window.location.href='/contact-me'}> Contact Me </button>
                     </div> 
+
+                    <div className = {styles.scrollDiv}> 
+                        <MovingComponent
+                            type="bounce"
+                            duration="1000ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="infinite"
+                            fillMode="none"
+                            >
+                            Scroll
+                        </MovingComponent>
+                    </div>
                 </div>
 
                 <div className = {styles.panel}> 

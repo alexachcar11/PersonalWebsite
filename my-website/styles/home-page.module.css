@@ -90,10 +90,11 @@
   margin-top: 60px;
 }
 
-.skillsTitle { 
-
-
+.scrollDiv { 
+  display: flex;
+  justify-content: center;
 }
+
 
 .skillsList { 
   margin-left: 250px;
@@ -106,14 +107,9 @@
   margin-top: 50px;
 }
 
-.techstackTitle { 
-
-
-}
-
 .techstackList {
   margin-left: 210px;
-  column-count: 4; /* Adjust for number of cols */
+  column-count: 4; /* Adjust for number of columns */
   column-gap: 140px;
 }
 
@@ -128,8 +124,4 @@
 .highlighted { 
   background-color: red;
   color: white;
-}
-
-.item { 
-
 }
