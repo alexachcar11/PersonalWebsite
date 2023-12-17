@@ -2,6 +2,14 @@ import styles from '../styles/updated-home-page.module.css';
 
 function HomePage() { 
 
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
     return(
 
         <div id="mySidenav" class="sidenav">
@@ -14,7 +22,6 @@ function HomePage() {
 
         <span onclick="openNav()">open</span>
 
-        <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
         <div id="main">
             <p> test </p>
         </div>
