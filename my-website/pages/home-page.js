@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import styles from '../styles/home-page.module.css';
 import Head from 'next/head';
+import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react';
 import { Text } from '@nextui-org/react';
 import { MovingComponent } from 'react-moving-text'
@@ -116,8 +117,17 @@ function HomePage() {
             <div ref={divisionRef} className={styles.panelContainer}> 
                 <div className = {styles.panel} > 
                     <div className = {styles.title} > 
-                        <div className={styles.imageWrapper}>
-                            <img className={styles.image} src="headshot.jpg" alt="Headshot" />
+                        <div className={styles.imageWrapper} >
+                            <Image 
+                                src="/headshot.jpg" 
+                                width={700} 
+                                height={500} 
+                                style={{
+                                    borderRadius: '5%', 
+                                    objectFit: 'cover'
+                                }} 
+                                alt="Headshot" 
+                            />
                         </div>
                         <Text 
                             h1 
