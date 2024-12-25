@@ -29,6 +29,7 @@ export const HomePageContent = () => (
     <Button
       className={styles.contactMeButton}
       radius="full"
+      onClick={ ()=>window.location.href='/contact-me'}
     >
       Reach Out?
     </Button>

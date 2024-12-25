@@ -1,4 +1,4 @@
-import styles from '../styles/home-page.module.css';
+import styles from '../styles/contact-me.module.css';
 import Image from 'next/image'
 import { Navbar, Button, Link, Text } from '@nextui-org/react';
 import { ContactMeLayout } from "./contact-me-layout.js";

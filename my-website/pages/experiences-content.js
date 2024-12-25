@@ -1,36 +1,12 @@
-import styles from '../styles/home-page.module.css';
+import styles from '../styles/experiences.module.css';
 import { Text, Button} from "@nextui-org/react"
 import { Box } from "./box.js"
 import Image from 'next/image'
 
-
 export const ExperienceContent = () => (
-  <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
 
-    <div className={styles.headshotContainer}
-        style={{
-          position: "relative",
-          width: "700px",
-          height: "700px", 
-        }}
-      >
-        <Image 
-            src="/headshot.jpg" 
-            fill
-            style={{
-                objectFit: "cover",
-                borderRadius: "50%", 
-            }}  
-            alt="Headshot"
-        />
-    </div>
-    <Text h1 className={styles.nameBlock}> Hi! </Text>
-    <Text className={styles.quickBlurb}> Welcome to my Website </Text>
-    <Button
-      className={styles.contactMeButton}
-      radius="full"
-    >
-      Reach Out?
-    </Button>
+  <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
+    <Text h1> Experiences </Text>
+
   </Box>
 );
