@@ -4,7 +4,7 @@ import { Box } from "./box.js"
 import Image from 'next/image'
 
 
-export const Content = () => (
+export const ContactMeContent = () => (
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
 
     <div className={styles.headshotContainer}
