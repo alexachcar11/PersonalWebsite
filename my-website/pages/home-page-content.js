@@ -24,7 +24,7 @@ export const HomePageContent = () => (
             alt="Headshot"
         />
     </div>
-    <Text h1 className={styles.nameBlock}> Hi! </Text>
+    <Text h1 className={styles.title}> Hi! </Text>
     <Text className={styles.quickBlurb}> Welcome to my Website </Text>
     <Button
       className={styles.contactMeButton}
