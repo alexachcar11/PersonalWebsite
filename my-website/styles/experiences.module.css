@@ -1,0 +1,75 @@
+.experiencesTitle { 
+    margin-top: 150px;
+    margin-bottom: 55px;
+
+}
+
+.fullGrid { 
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 600px;
+}
+
+.citiFullTime { 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.citiFullTimeLogoBox { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.citiFullTimeText { 
+    margin-top:auto;
+    margin-bottom:auto;
+
+}
+
+.fca { 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fcaLogoBox { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.fcaText { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.ni2 { 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.ni2LogoBox { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.ni2Text { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.actel { 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.actelLogoBox { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.actelText { 
+    margin-top:auto;
+    margin-bottom:auto;
+}
