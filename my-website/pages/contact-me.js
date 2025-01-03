@@ -1,7 +1,7 @@
 import styles from '../styles/contact-me.module.css';
 import Image from 'next/image'
 import { Navbar, Button, Link, Text } from '@nextui-org/react';
-import { ContactMeLayout } from "./contact-me-layout.js";
+import { ContactMeLayout } from "../layout/contact-me-layout.js";
 
 export default function ContactMe() { 
 

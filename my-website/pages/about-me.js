@@ -1,7 +1,7 @@
 import styles from '../styles/about-me.module.css';
 import Image from 'next/image'
 import { Navbar, Button, Link, Text } from '@nextui-org/react';
-import { AboutMeLayout } from "./about-me-layout.js";
+import { AboutMeLayout } from "../layout/about-me-layout.js";
 
 export default function AboutMe() { 
 

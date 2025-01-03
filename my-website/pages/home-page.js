@@ -1,7 +1,7 @@
 import styles from '../styles/home-page.module.css';
 import Image from 'next/image'
 import { Navbar, Button, Link, Text } from '@nextui-org/react';
-import { HomePageLayout, Layout } from "./home-page-layout.js";
+import { HomePageLayout, Layout } from "../layout/home-page-layout.js";
 
 
 export default function HomePage() { 

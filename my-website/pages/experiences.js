@@ -1,7 +1,7 @@
 import styles from '../styles/experiences.module.css';
 import Image from 'next/image'
 import { Navbar, Button, Link, Text } from '@nextui-org/react';
-import { ExperiencesLayout } from "./experiences-layout.js";
+import { ExperiencesLayout } from "../layout/experiences-layout.js";
 
 export default function Experiences() { 
 
