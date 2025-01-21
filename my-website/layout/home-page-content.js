@@ -7,19 +7,13 @@ import Image from 'next/image'
 export const HomePageContent = () => (
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
 
-    <div className={styles.headshotContainer}
-        style={{
-          position: "relative",
-          width: "700px",
-          height: "700px", 
-        }}
-      >
+    <div className={styles.headshotContainer}>
         <Image 
             src="/headshot.jpg" 
             fill
             style={{
                 objectFit: "cover",
-                borderRadius: "50%", 
+                borderRadius: "50%",
             }}  
             alt="Headshot"
         />

@@ -5,7 +5,8 @@
 }
 
 .fullGrid { 
-    width:1400px;
+    min-width: 30vh;
+    max-width: 70vh;
     display:grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 600px;
@@ -16,12 +17,6 @@
 .citiFullTime { 
     display:grid;
     grid-template-columns: 1fr 1fr;
-
-}
-
-.citiFullTimeLogoBox { 
-    margin-top:auto;
-    margin-bottom:auto;
 }
 
 .citiFullTimeText { 
@@ -33,11 +28,7 @@
 .fca { 
     display:grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.fcaLogoBox { 
-    margin-top:auto;
-    margin-bottom:auto;
+    
 }
 
 .fcaText { 
@@ -48,12 +39,6 @@
 .ni2 { 
     display:grid;
     grid-template-columns: 1fr 1fr;
-
-}
-
-.ni2LogoBox { 
-    margin-top:auto;
-    margin-bottom:auto;
 }
 
 .ni2Text { 
@@ -64,10 +49,9 @@
 .actel { 
     display:grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
-.actelLogoBox { 
+.logoBox { 
     margin-top:auto;
     margin-bottom:auto;
 }

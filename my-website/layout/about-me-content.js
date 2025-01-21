@@ -19,7 +19,7 @@ export const AboutMeContent = () => (
       minor. 
     </Text>
 
-    <Text className={styles.aboutMeText} size="$xl"> 
+    <Text className={styles.aboutMeText} id={styles.bottomText} size="$xl"> 
       I put this website together as a means to become familiar with a modern frontend tech stack and give a 
       small introduction to me as a person and developer. Please feel free to reach out through LinkedIn/Email via the 
       contact me tab in the top right. 

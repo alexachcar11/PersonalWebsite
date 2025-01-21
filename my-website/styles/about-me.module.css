@@ -7,8 +7,15 @@
 }
 
 .aboutMeText { 
-    width:700px;
-    margin-top: 60px;
+    max-width:30em;
+    margin-top: 40px;
     margin-left:auto;
     margin-right:auto;
+    hyphens:auto;
+    line-height: 1.75;
+}
+
+#bottomText { 
+    margin-top: 50px;
+    margin-bottom: 150px;
 }

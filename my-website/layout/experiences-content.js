@@ -10,11 +10,11 @@ export const ExperienceContent = () => (
       <div className={styles.fullGrid}> 
 
         <div className={styles.citiFullTime}> 
-          <div className={styles.citiFullTimeLogoBox}> 
+          <div className={styles.logoBox}> 
             <Image 
+              width="200"
+              height="200"
               src="/citilogo.png" 
-              width="400"
-              height="400"
               alt="Citi Logo"
             />
           </div>
@@ -35,11 +35,11 @@ export const ExperienceContent = () => (
 
 
         <div className={styles.fca}> 
-          <div className={styles.fcaLogoBox}> 
+          <div className={styles.logoBox}> 
             <Image 
+              width="200"
+              height="200"
               src="/fcalogo-modified.png" 
-              width="600"
-              height="600"
               alt="FCA Logo"
             />
           </div>
@@ -51,11 +51,11 @@ export const ExperienceContent = () => (
 
 
         <div className={styles.ni2}> 
-          <div className={styles.ni2LogoBox}> 
+          <div className={styles.logoBox}> 
             <Image 
+              width="200"
+              height="200"
               src="/ni2logo-modified.png" 
-              width="400"
-              height="400"
               alt="Ni2 Logo"
             />
           </div>
@@ -70,11 +70,11 @@ export const ExperienceContent = () => (
 
 
         <div className={styles.actel}> 
-          <div className={styles.actelLogoBox}> 
+          <div className={styles.logoBox}> 
             <Image 
+              width="200"
+              height="200"
               src="/actellogo.png" 
-              width="300"
-              height="300"
               alt="Actel Logo"
             />
           </div>
