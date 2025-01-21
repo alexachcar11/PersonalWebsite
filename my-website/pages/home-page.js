@@ -11,7 +11,7 @@ export default function HomePage() {
             <Navbar isBordered variant="floating">
                 <Navbar.Brand> 
                     <Text b color="inherit" hideIn="xs">
-                        ALEXANDER ACHCAR
+                        Alexander Achcar
                     </Text>
                 </Navbar.Brand>
                 <Navbar.Content enableCursorHighlight hideIn="s" variant="highlight-rounded">

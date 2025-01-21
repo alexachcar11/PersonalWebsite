@@ -23,6 +23,10 @@
     justify-content: center;
 }
 
+.images {
+    overflow-y: hidden;
+} 
+
 #midIcon { 
     margin-left:25px;
     margin-right:25px;

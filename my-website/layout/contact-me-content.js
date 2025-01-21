@@ -12,7 +12,7 @@ export const ContactMeContent = () => (
     <Text h1 className={styles.mainText}> Please feel free to reach out wherever it might be convenient for you... </Text>
     <div className={styles.cardContainer}> 
       <Card isPressable shadow="sm" onPress={() => window.location.href = 'https://www.linkedin.com/in/alexander-achcar/'} className={styles.cards}>
-          <Card.Body className="overflow-visible p-0">
+          <Card.Body className={styles.images}>
             <LinkedInIcon className={styles.icons} />
           </Card.Body>
           <Card.Footer className="text-small justify-between">
@@ -21,7 +21,7 @@ export const ContactMeContent = () => (
       </Card>
 
       <Card isPressable shadow="sm" onPress={() => window.location = 'mailto:achcar.alexander@gmail.com'} className={styles.cards} id={styles.midIcon}>
-          <Card.Body className="overflow-visible p-0">
+          <Card.Body className={styles.images}>
             <MailIcon className={styles.icons} />
           </Card.Body>
           <Card.Footer className="text-small justify-between">
@@ -30,7 +30,7 @@ export const ContactMeContent = () => (
       </Card>
 
       <Card isPressable shadow="sm" onPress={() => window.location.href = 'https://github.com/alexachcar11'} className={styles.cards}>
-          <Card.Body className="overflow-visible p-0">
+          <Card.Body className={styles.images}>
             <GitHubIcon className={styles.icons} />
           </Card.Body>
           <Card.Footer className="text-small justify-between">
