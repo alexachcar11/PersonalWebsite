@@ -7,6 +7,7 @@ import Image from 'next/image'
 export const HomePageContent = () => (
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
 
+    <Text h1 className={styles.title}> Hi! </Text>
     <div className={styles.headshotContainer}>
         <Image 
             src="/headshot.jpg" 
@@ -18,7 +19,6 @@ export const HomePageContent = () => (
             alt="Headshot"
         />
     </div>
-    <Text h1 className={styles.title}> Hi! </Text>
     <Text className={styles.quickBlurb}> Welcome to my Website </Text>
     <Button
       className={styles.contactMeButton}

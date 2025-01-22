@@ -2,19 +2,20 @@
     margin:0 auto;
     object-fit: contain;
     position: relative;
-    width: min(700px, 80vw);
-    height: min(700px, 80vw);
+    width: min(500px, 70vw);
+    height: min(500px, 70vw);
     border-radius: 50%;
     border: 2px solid rgba(0, 0, 0, 0.15);
     box-shadow: rgba(104, 112, 118, 0.08) 0px 12px 20px 6px
 }
 
 .title { 
-    margin-top: 60px;
+    margin-top: 30px;
     font-size:70px;
 }
 
 .quickBlurb { 
+    margin-top:30px;
     font-size:35px;
 }
 
