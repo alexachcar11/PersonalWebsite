@@ -7,7 +7,7 @@ import Image from 'next/image'
 export const HomePageContent = () => (
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
 
-    <Text h1 className={styles.title}> Hi! </Text>
+    <Text h1 className={styles.title}> Hi! <span className={styles.wavingHand}>👋</span></Text>
     <div className={styles.headshotContainer}>
         <Image 
             src="/headshot.jpg" 

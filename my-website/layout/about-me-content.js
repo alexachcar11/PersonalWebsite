@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export const AboutMeContent = () => (
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
-    <Text h1 className={styles.aboutMeTitle}> About Me </Text>
+    <Text h1 className={styles.aboutMeTitle}> About Me <span className={styles.writingPen}>🖊️</span></Text>
     <Text h3 className={styles.hiThere}> Hi There! </Text>
     <Text className={styles.aboutMeText} size="$xl"> 
       My name is Alexander Achcar. I&#39;m a passionate lifelong learner when it comes to all things 

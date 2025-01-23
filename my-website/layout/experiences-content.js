@@ -6,7 +6,7 @@ import Image from 'next/image'
 export const ExperienceContent = () => (
 
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
-    <Text h1 className={styles.experiencesTitle}> Experiences </Text>
+    <Text h1 className={styles.experiencesTitle}> Experiences <span className={styles.paper}>📝</span></Text>
       <div className={styles.fullGrid}> 
 
         <div className={styles.citiFullTime}> 
