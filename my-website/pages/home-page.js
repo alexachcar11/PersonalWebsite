@@ -16,6 +16,7 @@ export default function HomePage() {
                 <Navbar.Content enableCursorHighlight hideIn="s" variant="highlight-rounded">
                     <Navbar.Link isActive href="#">Home</Navbar.Link>
                     <Navbar.Link href="./about-me">About Me</Navbar.Link>
+                    <Navbar.Link href="./skills">Skills</Navbar.Link>
                     <Navbar.Link href="./experiences">Experiences</Navbar.Link>
                     <Navbar.Link href="./contact-me">Contact Me</Navbar.Link>
                 </Navbar.Content>
