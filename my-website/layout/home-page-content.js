@@ -19,7 +19,6 @@ export const HomePageContent = () => (
             alt="Headshot"
         />
     </div>
-    <Text className={styles.quickBlurb}> Welcome to my Website </Text>
     <Button
       className={styles.contactMeButton}
       radius="full"
