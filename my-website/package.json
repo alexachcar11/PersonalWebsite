@@ -13,6 +13,7 @@
     "@mui/material": "^5.13.0",
     "@nextui-org/react": "^1.0.0-beta.12",
     "@nextui-org/tabs": "^2.2.6",
+    "@vercel/analytics": "^1.5.0",
     "gsap": "^3.11.5",
     "next": "latest",
     "react": "18.2.0",

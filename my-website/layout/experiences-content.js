@@ -2,10 +2,12 @@ import styles from '../styles/experiences.module.css';
 import { Text, Spacer } from "@nextui-org/react";
 import { Box } from "./box.js";
 import { ExperienceCard } from "./ExperiencesCard";
+import { Analytics } from "@vercel/analytics/next"
 
 export const ExperienceContent = () => (
   
   <Box css={{ px: "$12", mt: "$8", textAlign: "center", "@xsMax": { px: "$10" } }}>
+    <Analytics/>
     <Text h1 className={styles.experiencesTitle}>
       Experiences <span className={styles.paper}>📝</span>
     </Text>

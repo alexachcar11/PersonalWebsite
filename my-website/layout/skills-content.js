@@ -5,12 +5,14 @@ import Image from 'next/image'
 import {Accordion, AccordionItem} from "@heroui/accordion"
 import {Chip} from "@heroui/react";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/next"
 
 export const SkillsContent = () => {
   const [showOpenUpChip, setShowOpenUpChip] = useState(true); 
 
   return (
     <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
+      <Analytics/>
       <Text h1 className={styles.skillsTitle}> Skills <span className={styles.ninja}>🔨</span></Text>
 
       <Accordion selectionMode="multiple" className={styles.fullAccordion}>

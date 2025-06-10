@@ -5,10 +5,12 @@ import Image from 'next/image'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Analytics } from "@vercel/analytics/next"
 
 export const ContactMeContent = () => (
 
   <Box css={{px: "$12", mt: "$8", textAlign:"center", "@xsMax": {px: "$10"}}}>
+    <Analytics/>
     <Text h1 className={styles.mainText}> Please feel free to reach out wherever it might be convenient for you... </Text>
     <div className={styles.cardContainer}> 
       <Card isPressable shadow="sm" onPress={() => window.location.href = 'https://www.linkedin.com/in/alexander-achcar/'} className={styles.cards}>
