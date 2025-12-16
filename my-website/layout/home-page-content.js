@@ -10,7 +10,7 @@ export const HomePageContent = () => (
     <Text h1 className={styles.title}> Hi! <span className={styles.wavingHand}>👋</span></Text>
     <div className={styles.headshotContainer}>
         <Image 
-            src="/headshot.jpg" 
+            src="/headshot2025.jpg" 
             fill
             style={{
                 objectFit: "cover",
