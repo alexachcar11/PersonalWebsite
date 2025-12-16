@@ -15,7 +15,7 @@
     "@nextui-org/tabs": "^2.2.6",
     "@vercel/analytics": "^1.5.0",
     "gsap": "^3.11.5",
-    "next": "latest",
+    "next": "15.5.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-moving-text": "^0.0.7"
