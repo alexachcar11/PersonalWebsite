@@ -16,8 +16,8 @@
     "@vercel/analytics": "^1.5.0",
     "gsap": "^3.11.5",
     "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "25.2.1",
+    "react-dom": "25.2.1",
     "react-moving-text": "^0.0.7"
   }
 }
